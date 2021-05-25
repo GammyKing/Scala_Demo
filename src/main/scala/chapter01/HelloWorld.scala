@@ -1,0 +1,13 @@
+package chapter01
+/*
+object :关键字，声明一个单例对象（伴生对象）。
+ */
+object HelloWorld {
+  /*
+  main 方法：从外部可以直接调用执行的方法
+   */
+  def main(args: Array[String]): Unit = {
+    println("hello world")
+    System.out.println("hello scala")
+  }
+}
